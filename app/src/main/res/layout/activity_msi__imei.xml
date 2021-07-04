@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MSI_IMEI">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,18 +16,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnGetIMEI_IMSI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:layout_margin="20dp"/>
+            android:text="Button" />
 
-        <Button
-            android:id="@+id/btnIMEI_IMSI"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="IMEI IMSI"
-            android:layout_margin="20dp"
-            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
